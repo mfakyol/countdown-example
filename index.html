@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div class="set-up-countdown">
+      <input id="countdown-input" type="datetime-local" /><br /><br />
+      <button id="countdown-set-button">Set Countdown</button>
+    </div>
+    <div class="countdown">
+      <div class="field">
+        <span class="day"></span><br />
+        <p>Day</p>
+      </div>
+      <div class="field">
+        <span class="hour"></span><br />
+        <p>Hour</p>
+      </div>
+      <div class="field">
+        <span class="min"></span> <br />
+        <p>Min</p>
+      </div>
+      <div class="field">
+        <span class="sec"></span> <br />
+        <p>Sec</p>
+      </div>
+      <div><button id="change-countdown">Change Countdown</button></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
